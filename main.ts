@@ -6,11 +6,4 @@ basic.forever(function () {
         led.plot(2, 2 - I)
         basic.pause(200)
     }
-    for (let I2 = 0; I2 <= 4; I2++) {
-        led.unplot(2 + (2 - I2), 2)
-        led.unplot(2 - (2 - I2), 2)
-        led.unplot(2, 2 + (2 - I2))
-        led.unplot(2, 2 - (2 - I2))
-        basic.pause(200)
-    }
 })
